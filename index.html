@@ -3,10 +3,23 @@
     <meta charset="utf-8"> 
 	<title>Сайт web-студії "Web-DECO"</title> 
 <!------  01  css стили ----- -->		
-
+<style>
+    .shadowtext {
+       text-shadow: 1px 3px 2px white, 0 0 1em red; 
+       color: #210042; 
+       font-size: 4em; 
+      }
+   </style>
 <!-- ------------------------ -->
 <!--------- 02 Годинник -------->	
+<script src ="js/clock1.js"></script>
+<script>
+	window.onload = function(){
+	setInterval(clockPainting, 1000);}
+	</script>
 
+    =============================================
+    	<center><canvas id="canvas" height="120" width="120"></canvas></ce
 <!-- ------------------------ -->
   </HEAD>
   <BODY background="images/bg.jpg">
@@ -14,24 +27,26 @@
 		<tr> 
 			<td background="images/bg-3.jpg" colspan="2" height="150" align="right" hspace="5">
                 <!-- 03  Заголовок --> 
+<img src="images/logo.png" height="100" width="100" align="left" >	
+				<font color="Maroon"><h1 class="shadowtext">Сайт студії "Web-DECO"</h1></font>
                 <!-- ------------- -->
 			</td>
 		</tr>
         <tr>
 			<td colspan="2">
-		<!-- 04  Горизонтальне меню -->
+				<!-- 04  Горизонтальне меню -->
 			    
                 <!-- ----------------------- -->
 			</td>
 		</tr>
 		<tr>
 		    <td width="30%" valign="top">
-			<!--  02  Годинник -->
-		
-			<!-- ------------- -->
-			<!-------  05  Меню Новини ----------->
+				<!--  02  Годинник -->
+			
+			    <!-- ------------- -->
+				<!-------  05  Меню Новини ----------->
 			 
-			<!-- ------------------------------ -->
+			    <!-- ------------------------------ -->
 	        <hr>
 	  <!--------- 06  Форма  ----  -->
  
@@ -45,15 +60,15 @@
                 <!--  10  Абзац №4  -->	
                 <!--  11  Абзац №5  -->	
                 <!--  12  Абзац №6  -->	
-		<!--  13  Абзац №6  -->	
+				<!--  13  Абзац №6  -->	
             </td>
 		</tr>
 		<tr>
 			
 			<td colspan="2" valign="middle" height="90" background="images/bg-2.jpg">
 				<!--   14  Автор    -->
-
-                		<!--   ---------   -->
+<font size="5"> Керівник проету - Римар віктор </font>
+                <!--   ---------   -->
 			</td>
 		</tr>
 	</table>
